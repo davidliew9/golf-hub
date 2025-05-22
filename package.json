@@ -1,0 +1,46 @@
+{
+  "name": "golf-hub",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidliew9/golf-hub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidliew9/golf-hub/issues"
+  },
+  "homepage": "https://github.com/davidliew9/golf-hub#readme",
+  "dependencies": {
+    "next": "^13.4.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "@stripe/stripe-js": "^1.54.1",
+    "stripe": "^12.16.0",
+    "next-auth": "^4.22.3",
+    "mongoose": "^7.4.3",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.40.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^3.0.0",
+    "@types/node": "^20.4.9",
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.46.0",
+    "eslint-config-next": "^13.4.13",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.1.6"
+  }
+}
