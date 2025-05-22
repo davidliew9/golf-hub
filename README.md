@@ -105,7 +105,10 @@ You can also run the application using Docker:
 
 1. Make sure you have Docker and Docker Compose installed
 2. Clone the repository and navigate to the project directory
-3. Update environment variables in the `docker-compose.yml` file
+3. Copy `.env.example` to `.env` and update the environment variables:
+   ```bash
+   cp .env.example .env
+   ```
 4. Run the following command:
    ```bash
    docker-compose up -d

@@ -9,11 +9,8 @@ services:
       - .:/app
       - /app/node_modules
       - /app/.next
-    environment:
-      - NODE_ENV=production
-      - MONGODB_URI=mongodb://mongo:27017/golfhub
-      - NEXTAUTH_URL=http://localhost:3000
-      - NEXTAUTH_SECRET=your_nextauth_secret
+    env_file:
+      - .env
     depends_on:
       - mongo
 
