@@ -20,16 +20,16 @@
   },
   "homepage": "https://github.com/davidliew9/golf-hub#readme",
   "dependencies": {
+    "@stripe/stripe-js": "^1.54.1",
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^1.40.0",
+    "mongoose": "^7.4.3",
     "next": "^13.4.19",
+    "next-auth": "^4.22.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
-    "@stripe/stripe-js": "^1.54.1",
-    "stripe": "^12.16.0",
-    "next-auth": "^4.22.3",
-    "mongoose": "^7.4.3",
-    "bcryptjs": "^2.4.3",
-    "cloudinary": "^1.40.0"
+    "stripe": "^12.16.0"
   },
   "devDependencies": {
     "@types/bcryptjs": "^3.0.0",
